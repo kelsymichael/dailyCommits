@@ -168,7 +168,7 @@ display: inline
 	
 	text is by default - inline	
 
-### FLEXBOX <-- the future for layouts
+### FLEXBOX <-- the future for layouts  // ! in codepen.io add 'display: -webkit-flex;' in addition to display: flex;
 	- put the properties on the parent
 	
 	parent element == display: flex;
@@ -186,6 +186,89 @@ display: inline
 			}
 <!-- end of example -->
 
+<!-- beginning of Tut+ 'CSS: Flexbox Essentials -->
+<body>
+	<div class='container'>
+		<div class='item item1'>item1</div>
+		<div class='item item2'>item2</div>
+		<div class='item item3'>item3</div>
+		<div class='item item4'>item4</div>
+		<div class='item item5'>item5</div>
+	</div>
+</body>
+
+<!--start of css -->
+.container {
+	background-color: #555;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.item {
+	width: 60px;
+	height: 60px;
+}
+
+// ! rest of code is in CodePen.io 'tutsPlus flexbox'
+	
+
+<!--start of notes -->
+divs = naturally block elements
+(p == short for parent element / c == short for child element)
+
+p display: flex;
+
+
+c flex-basis: ; <-- the natural width of the elements
+c flex-grow: 1 ; <-- arbitrary number
+c flex-grow: 2 ; <-- how much these items will grow in relation to each other
+
+c flex-shrink: 1; <--arbitrary, similar to flex-grow
+c flex-shrink: 2; <--shrinks twice as much as the others
+
+
+####shorthand properties
+c flex: growValue shrinkValue basis; <-- this 'flex:' shorthand expects 3 values
+	flex: 1 1 450px;
+
+// shorter shorthand
+
+to get something twice as wide than something, use this shorthand:
+c flex: 1;
+	flex: 2; <--twice as wide as ^
+
+####flex-direction
+p flex-direction: row || column;
+	flex-direction: row-reverse;
+	flex-direction: column-reverse;
+
+####using padding / margin with flexbox
+just as normal, use p container
+
+set min-width on p container to effect everything 
+	setting for wrapping on the other line
+	p flex-wrap: wrap; <--default is nowrap
+		flex-wrap: wrap-reverse; <--the fourth item would jump to the top as it gets smaller // probably won't use it that much
+
+####flex-flow: shorthand for flex-direction: & flex-wrap
+flex-direction (horizontal or vertical) flex-wrap (wrap or wrap-reverse)
+	// ^ are the flow
+
+p flex-flow: row wrap; <-- looks for 2 properties, row/column && wrap/wrap-reverse
+
+// ! can set flex-basis: auto;
+
+####flex-box vendor prefixes
+ // install 'autoprefixer'
+
+
+// simple website layout //
+
+
+
+--- 
 ### OVERFLOW
 
 	.parent {
@@ -208,6 +291,19 @@ display: inline
 	generally label it w/ 100
 
 	// working on a good z-index example in codePen.io, along with positions
+parent:
+	flex-direction: row || columns
+	flex-direction: row-reverse; column-reverse;
+
+child:
+	flex: 1;
+	
+
+
+
+
+
+
 
 ### MAX/MIN width
 	sometimes you'll want to put a constraint, specifically with large screens
