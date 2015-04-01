@@ -107,14 +107,106 @@ change things w/out commiting
 
 Has auto-suggestion, unless it's looking for a specific number value --> 'inherit/initial/~sometimes normal
 
+### keep code DRY - don't repeat yourself
+
+example of bad :
+	button1 {
+		background: red;
+		color: white;
+	}
+	button2 {
+		background: red;
+		color: white;
+	}
+	button3 etc.
+
+good example:
+	.button {
+		background: red;
+		display: inline-block;
+		padding 20px;
+		}
+
+	.button--call-to-action {
+		background: blue;
+	}
+<!-- end of example -->
 
 
+### positioning --> in codePen
+
+ ! as a general rule, you DON'T want to use positioning to get it exactly where you want
+
+	default position = static
+		relative = relative to whatever it would normally go, it's relative to that
+		absolute = based on the BROWSER WINDOW
+			// instead of 'where would this normally go, it's looking at how is this offset from the browswer window
+
+					relative = where it would be be
+					absolute = from the browser window
+
+HOW TO CHANGE HOW ABSOLUTE WORK
+	! change it's parent to RELATIVE, this will make it ABSOLUTE from it's parent instead of browser window
 
 
+### display --> codepen
 
+display: block;
+	-div's are naturally block
+	-will take up as much width as possible
 
+display: inline-block;
+	-only take up the space that you need
+	-!! it ADDS an EXTRA CHARACTER OF SPACE !!!
+		-- e.g., two blocks @ 50% in display:inline-block <-- WILL NOT FIT SIDE-BY-SIDE, b/c of the extra character
+			* using floats can make these fit *
+	-it respects verticle margin
 		
-			
+
+display: inline
+	! DOES NOT RESPECT VERTICLE MARGIN
+	
+	text is by default - inline	
+
+### FLEXBOX <-- the future for layouts
+	- put the properties on the parent
+	
+	parent element == display: flex;
+		e.g., 
+			.parent {
+				display: flex;
+				justify-content: flex-start;
+				height: 200px;
+			}
+
+			.box {
+				background: black;
+				height: 50px;
+				width: 50px;
+			}
+<!-- end of example -->
+
+### OVERFLOW
+
+	.parent {
+		background: black;
+		stuff
+		stuff
+		overflow: scroll;
+	}
+
+	auto == does it need a scrollbar? adds if yes
+	scroll == adds scrollbar whether needed or not
+
+### FONT-FAMILY
+
+
+
+
+
+
+
+
 
 
 
