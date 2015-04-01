@@ -79,9 +79,42 @@ as a general rule you don’t want to throw out a style to all div’s
 	overall it was how I did it, still should go back to finish it
 
 ## InClass Lecture
-	
-	
 
+	css shorthand - 
+		margin: 0, 0, 0, 0; --> margin: 10px 20px;
+		margin: top, bottom;
+
+// review of D02 assignment - png1 --> saved on CodePen
+
+### color
+
+	hex - 
+		#000000 = black
+		#ffffff = white
+		#333333 = darkGrey
+			cons // no alpha layer
+		shorthand - if the first 3 = last three, stop @ 3
+			e.g., 000  == 000000
+### floats
+	do you want to float the parent?
+		yes = float
+		no = overflow auto
+
+### dev tools - Chrome
+	when looking @ a website, right-click --> 'inspect element'
+Can change html on the fly, color, etc.
+change things w/out commiting
+
+Has auto-suggestion, unless it's looking for a specific number value --> 'inherit/initial/~sometimes normal
+
+
+
+
+
+
+
+		
+			
 
 
 
