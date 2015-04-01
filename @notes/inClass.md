@@ -256,8 +256,6 @@ set min-width on p container to effect everything
 flex-direction (horizontal or vertical) flex-wrap (wrap or wrap-reverse)
 	// ^ are the flow
 
-p flex-flow: row wrap; <-- looks for 2 properties, row/column && wrap/wrap-reverse
-
 // ! can set flex-basis: auto;
 
 ####flex-box vendor prefixes
