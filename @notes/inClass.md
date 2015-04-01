@@ -72,8 +72,15 @@ as a general rule you don’t want to throw out a style to all div’s
 
 # 2015-04-01 - InClass w01d03 - Wed
 
+## inclass start of project -- going over problem 3
+	
+	nesting was used for the logo, (example inClass) container>header>logo
 
+	overall it was how I did it, still should go back to finish it
 
+## InClass Lecture
+	
+	
 
 
 
