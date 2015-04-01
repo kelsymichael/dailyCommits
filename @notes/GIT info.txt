@@ -1,0 +1,8 @@
+## GIT
+
+for getting onto your branch
+
+		// git push origin <nameOfBranch>
+
+
+git branch <nameOfBranchToCreate>
