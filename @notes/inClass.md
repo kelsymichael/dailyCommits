@@ -199,6 +199,36 @@ display: inline
 	scroll == adds scrollbar whether needed or not
 
 ### FONT-FAMILY
+	basic about serif/san-serif
+	add moarrr
+
+### Z-INDEX
+
+	poisition absolute & relative works, static will NOT allow
+	generally label it w/ 100
+
+	// working on a good z-index example in codePen.io, along with positions
+
+### MAX/MIN width
+	sometimes you'll want to put a constraint, specifically with large screens
+		e.g., someone has a 4k monitor and it looks like shit
+		!!! IF YOU WANT IT FLEXIBLE
+			width: 50%;
+			max-width: 600px;
+
+### reset vs. normalize
+	used to be a good convention to add a reset stylesheet
+		reset stylesheet resets everything
+			e.g., h1, h2, etc., are exactly the same, e.i.,
+
+	*normalize* is considered a best practice
+		!! INCLUDE IN OUR PROJECTS @ THE BEGINNING of the html !!
+
+
+			
+
+
+	
 
 
 
