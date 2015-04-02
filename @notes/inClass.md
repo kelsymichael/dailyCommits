@@ -320,6 +320,87 @@ child:
 
 #2015-04-02 -InClass w01d04 - Thu
 			
+review of MDN - for reference 
+
+###tables
+ // don't use this unless you have actual tabular data // 
+
+	<table>
+		<tr>
+			<td>table1</td>
+			<td>cellData</td>
+		</tr>
+	</table>
+
+display: inline / inline-block / or **display table**
+	using display: table is fine, but don't use it html unless actually making a table
+
+p	display: table;
+c display: table-cell;
+c vertical-align: center;
+
+	// think of every element as a rectangle ~ box
+		the box-model is the thing that determines the size of the element
+	width:
+	height:
+	padding:
+	border:
+		margin: <-- has nothing to do with the size of the element
+
+#### border-box takes into account both padding and margin in calculating box-size
+
+learn more about 'transition' and look at 'will-change' for smoother performance
+
+###sudo classes
+	.button:hover
+	.button:active	<-- when you actually click it
+	.button:visited <-- the visited state
+
+	.input:focus <-- used for forms
+
+
+.button:nth-child(even) {
+	background: blue;
+}
+
+what .button:after {
+	content: '';  <----used for icons primarily / or triangles for tooltips, will use :before && :after
+
+.button:after {
+	clear:both; <--clear fixes
+}
+
+.button:nth-child(1 <--where you want to start)
+.button:nth-child(2n + 1) {
+}
+
+### media quirier && responsive design
+
+	design mobile first <-- 
+		think about content in a strategic way to present well on
+			-mobile
+			-&& computer
+
+	poor web design would be university websites
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
