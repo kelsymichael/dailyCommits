@@ -8,3 +8,27 @@ Starting to work on html2 - first layout, starting over && attempting to use fle
 
 update @ 2:30pm
 	my mind has turned to shit
+
+
+
+
+
+
+####April 2 
+	feel behind
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
