@@ -387,6 +387,10 @@ what .button:after {
 
 }
 
+larger projects put media query AFTER THE THING YOU WANT CHANGED
+
+
+
 mobile first will use min-width generally, not max width
 
  // put media queries when the design starts to breakdown
@@ -416,42 +420,15 @@ things to know
 
 .parent .blue  ( <-- item that is .blue which is nested in .parent )
 
+
  
+### chrome dev tools
+	using the inspector you can toggle :hover, :active, etc., and allows you to edit while looking at that state
 
+# TOY PROBLEM
 
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
+  css-selectors fromt : https://flukeout.github.io
+	second one finished
 
 
 
