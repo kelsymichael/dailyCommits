@@ -318,7 +318,7 @@ child:
 	*normalize* is considered a best practice
 		!! INCLUDE IN OUR PROJECTS @ THE BEGINNING of the html !!
 
-
+#2015-04-02 -InClass w01d04 - Thu
 			
 
 
