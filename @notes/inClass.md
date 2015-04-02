@@ -383,6 +383,43 @@ what .button:after {
 
 	poor web design would be university websites
 
+@media {
+
+}
+
+mobile first will use min-width generally, not max width
+
+ // put media queries when the design starts to breakdown
+
+ 4 media query break-points should be good
+
+ depending on the size of he site, you'll want to place the media-query right after the thing you want to change
+!!  media queries at the top do not have any specificity && won't be applied
+
+things to know
+	when working on a web app, the designer says i need this to be a fixed width e.g., sidebar to be 300px, but the rest of the site to be a %
+
+	!* on 'width' property
+		width: calc(100% - 300px);  
+
+		browser read from RIGHT to LEFT for selectors
+		looks for the body first 
+
+
+###different selectors
+
+.box.blue  ( <-- select only items with the class both .box ** .blue )
+
+.box + .box  ( <-- will be applied to any .box that has .box PRECEDING it, so the first .box will not have the style applied to it ).
+
+.parent > .box  ( <-- direct decendent ) 
+
+.parent .blue  ( <-- item that is .blue which is nested in .parent )
+
+ 
+
+
+
 
 
 
