@@ -556,8 +556,33 @@ p align-items: flex-start; <--this gets rid of the stretch and allows the exampl
 
 
 
+## 2015-04-03 - w01d05 start of JS - Fri
+
+format of the classes until ~ weds, will be 2-a-days
+	lecture in morning
+	lecture in the afternoon
+
+inventing this language
+	user input (database - real time data)
+	animations
+	calculations
+	ability to modify html/css
+	user interactions
+	asynchronous <-- allows for e.g., a tweet would be able to post && communicate from frontend to backend w/out the browser freezing
+	
+	frontend = html/css/js
+		jQuery <-- exists for manipulating the DOM much easier, e.g.,
+			because you know jQuery does NOT mean you know javascript
 
 
+
+
+
+
+
+
+
+	
 
 
 
