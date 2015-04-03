@@ -574,7 +574,7 @@ inventing this language
 		jQuery <-- exists for manipulating the DOM much easier, e.g.,
 			because you know jQuery does NOT mean you know javascript
 
-
+starting in-class project 
 
 
 
