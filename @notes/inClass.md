@@ -430,6 +430,147 @@ things to know
   css-selectors fromt : https://flukeout.github.io
 	second one finished
 
+### @Home flex tut
+p display: flex;
+p flex-direction: column; <--default is row
+									row-reverse; <--reverses the c's
+									column-reverse: <--reverse the c's
+
+c flex: 2  <--twice as big as 2
+c flex: 1
+c flex: 2
+c flex: 1
+
+	// specifying the order
+c flex:1;
+	order:2;
+	
+c flex:1;
+	order:1;
+
+c flex:1;
+	order:4;
+
+c flex:1;
+	order:3;
+
+!// <-- add 10px of padding on the body to show it re-size !//
+
+media query -
+	@media (max-width: 600px) {
+		.item1 { order: 4; }
+		.item1 { order: 1; }
+		.item1 { order: 1; }
+		.item1 { order: 1; }
+}
+
+
+###adding content:
+normally takes up the flex box
+// using padding & margin is very much the same as in everyday use //	
+
+you could hard-code the height, but you don't know how much content will be in there. no matter how much you put in there they will be the same height
+
+content-spacing:
+
+.item {
+	padding: 10px; <--still need padding so the text doesn't run right next to the edge
+	margin: 10px;
+}
+
+can set min-width, so that the columns will sop resizing, but the CONTAINING element will continue to collapse
+
+### wrapping content 
+
+p flex-wrap: nowrap; <--default 
+	this defines how you want the container to react 
+
+p flex-wrap: wrap <--this will react with the the container to make the items react
+
+ // if the minimum widths of your flex-items exceeds the width of the CONTAINER, you're able to define how those items behave
+
+### flex-flow shorthand
+	it combines flex-direction && flex-wrap
+
+p flex-flow: row wrap; (first = direction second = wrap)
+
+!# when the content over-flows the container , e.g., you have a lot of <p> and it goes over
+
+	to fix, set the flex-basis
+
+	c flex: 1 0 auto; <-- the flex-basis: auto; is what helps
+
+	c width: 200px;
+	c max-height: 250px; <--issue in the tutsplus example
+
+### cross-axis alignment
+when your content wraps to the next row or column, depending on how your layout is set up, there may be unwanted space along the cross-axis, this discusses how to align-content to adjust spacing
+
+p align-content: flex-start; <--aligns with the 'start' && the example it would be next to the other content
+	instead of evenly spacing the c's in the container, it would get rid of that space
+
+in the example, p flex-flow: COLUMN wrap; <--
+
+p display: flex;
+	flex-flow: column wrap;
+	align-content: flex-start; <--default is 'stretch
+
+
+	when it's columns - the cross axis is horizontal
+	when it's row - the cross axis is vertical
+
+	// when p flex-flow: row wrap;
+	p align-content: flex-start;
+							flex-end; <--align to bottom
+							flex-between; <--ADJUST SPACE BETWEEN 
+!!! the flex-between will allow the items to be on opposite ends
+
+###justifying content
+the justify content deals with the MAIN axis (versus the CROSS axis of the 
+
+example they take off the flex property in three of the c's, but keeps it on item 4
+
+p justify-content: center; <--this allows to adjust the other axis, i.e., rows deal with horizontal on the align-content, while justify-content deals with vertical
+
+// justify-content along main
+	align-content along cross
+
+###align-items
+allows you to align each individual flex-item to cross-axis instead of the entire row or column as a whole
+
+a way to align items based on the height of those items (default = stretch)
+
+p align-items: flex-start; <--this gets rid of the stretch and allows the example items to be the height of the content (and not the full height of the container
+
+	// allows to retain their natural height instead of all of the columns/rows being the same height
+
+	p items-align: center; <--put them in the center
+
+	p items-align: baseline; <-- when the items have padding/margin, it changes the content, so the headers of the content are all aligned, in this example the headers
+	
+	property called 'align-self'
+
+	c align-self: flex-end; <--this allowed the example to have .item1 ignore the other three .items that were aligned to the baseline
+
+// had main .container display: flex; <-- that is a div around everything, then followed other containers
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
 
 
 
