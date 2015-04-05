@@ -35,7 +35,17 @@ Continue with stylus projects// really liking the syntax
 		* w01d03 - html layout 2
 			+-first
 			+-second
-			-third
+			+-third
+				^note from third layout. 
+					Used a fixed height on .box, but set width to 100%
+					Set another container for the box within a child :e.g.,
+					p = parent, c = child, gc = grandchild, gcc = great-gc
+						p container d:flex
+						 c col1
+						 c col2
+							gc .boxc d:flex justify-content center align-items center
+								ggc .box width 100% height 250px
+								
 		*	w01d03 - wikimedia layout
 			-do
 
