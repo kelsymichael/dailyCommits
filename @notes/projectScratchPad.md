@@ -28,13 +28,13 @@ Continue with stylus projects// really liking the syntax
 
 	-TODO: 1. re-do previous projects
 		* w01d02 - html-layout
-			-first
-			-second
-			-third
+			+-first
+			+-second
+			+-third
 
 		* w01d03 - html layout 2
-			-first
-			-second
+			+-first
+			+-second
 			-third
 		*	w01d03 - wikimedia layout
 			-do
@@ -42,6 +42,7 @@ Continue with stylus projects// really liking the syntax
 		* w01d04 - SLC Dental
 			-site clone
 
+// sidenote - use following tag '<meta name="viewport" content="width=device-width, initial-scale=1"> '
 
 		
 
