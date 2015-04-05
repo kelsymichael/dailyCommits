@@ -47,7 +47,7 @@ Continue with stylus projects// really liking the syntax
 								ggc .box width 100% height 250px
 								
 		*	w01d03 - wikimedia layout
-			-do
+			+-do
 
 		* w01d04 - SLC Dental
 			-site clone
@@ -55,5 +55,9 @@ Continue with stylus projects// really liking the syntax
 // sidenote - use following tag '<meta name="viewport" content="width=device-width, initial-scale=1"> '
 
 		
+// my last note to use flex within a flex would have been useful
+
+		for some reason i've been looking at my monitor and not making the simple adjustment for all img's to be within their own space, justify-content space-between
+
 
 
