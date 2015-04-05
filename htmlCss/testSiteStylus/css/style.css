@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0 auto;
+  background: #3b7adb;
+  width: 100%;
+  height: 100%;
+}
+header {
+  margin: 0 auto;
+  width: 95%;
+  height: 10%;
+  -webkit-border-radius: 1px 2px/3px 4px;
+  border-radius: 1px 2px/3px 4px;
+}
+nav {
+  background: #c20016;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #efe;
+}
+.btn1 {
+  background: #393939;
+flex1
+}
+.btn2 {
+  background: #3b7adb;
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  -o-box-flex: 3;
+  box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+.btn3 {
+  background: #c20016;
+}
+.btn4 {
+  background: #f6e518;
+}
+main {
+  width: 95%;
+  height: 80%;
+  background: #fffff6;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+}
+footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  width: 95%;
+  height: 10%;
+  margin: 0 auto;
+  background: #abe773;
+}
