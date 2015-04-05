@@ -24,16 +24,9 @@ update @ 2:30pm
 2. review javascript
 3. get next week's folder's and projects ready
 
-
-
-
-
-
-
-
-
-
-
-
-
 Continue with stylus projects// really liking the syntax
+
+
+
+
+
