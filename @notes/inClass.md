@@ -576,14 +576,87 @@ inventing this language
 
 starting in-class project 
 
+# 6 April 2015 - w02d01
+
+JS ~ objects // 
+
+example of a credit card, has the following properties
+	number, exp date, name, type of card, etc.
+	array[] wouldn't be helpful
+
+objects are key-value, e.g.,
+	var card = {
+		number: 234234,
+		expDate: '4/17',
+		name: 'kelsy g'
+	};
+
+		biggeset difference between arr and obj, arr have specific order
+
+for creating objects
+		var object = {}; 
+
+		var object = {
+			name: value
+		};
+
+example:
+//tyler's car wash
+//moneyMade
+//totalWashes
+//open
+//red, blue, green (occupied: true/false, status: 'working'/'broken')
 
 
-
-
-
-
+var tylersCarWash = {
+  moneyMade: 325345,
+	totalWashes: 324,
+	open: true,
+	slots: {
+		red: {occupied: true, status: 'working'},
+		blue: {occupied: false, status: 'working'},
+		green: {occupied: false, status: 'broken'},
+	}
+};
 	
+//calories --> 0,
+//total carb --> 2g,
+//protein --> 0
+//vitaminb6 --> 100%,
+//ingredients --> carbonated water, citric acid, sorbic acid
+//servingsPerContainer --> 2
+//servingSize --> 8.0 fl. oz
+//name --> zero ultra
 
+var monsterDrink = {
+  calories: 0,
+	totalCarb: '2g',
+	protein: 0,
+	vitaminb6: '100%',
+	ingredients: {
+		
+		},
+	servingsPerContainer: 2,
+	servingSize: '8.0 fl. oz',
+	name: 'zero ultra'
+};
+
+### to delete 
+	delete monster.calories
+	
+// can't delete a value without deleting it's key
+
+to access values inside an object
+	dot notation =  monster.protein
+	bracket notation = monster['protein'];  <--- get the value or key of protein
+
+a 'for in loop' <-- loops over every key in your object
+
+for(var key in monster) {
+  console.log( key + ':' + monster[key]);
+}
+	
+in order to you 'dot' notation. the thing to the left of the dot is an object
 
 
 
