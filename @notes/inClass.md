@@ -659,8 +659,30 @@ for(var key in monster) {
 in order to you 'dot' notation. the thing to the left of the dot is an object
 
 
+## 7 April 2015 - inclass w02d02
 
+inClass - toyProblem: var combinator = function(firstName, lastName) {
+	// combines them and returns them to a new array;
+
+put 2 ways of doing the toy problem, followed by a recursion way in toyProblem w02d02
+
+starting // WAR problem
+
+// synchronous 
 	
+	var dan = function(x) {
+		x =  x + 3;
+		x = x * 5;
+		return x;
+  }
+	
+example of twitter 
+	// a callback, would be when twitter needs a way to show the new tweets
+			// the callback puts the tweeets back on the page
+
+// if you're getting data from the server it doesn't freeze everything
+
+
 
 
 
