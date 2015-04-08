@@ -684,13 +684,105 @@ example of twitter
 
 ### After-lunch lecture - prototypes
 
+instead of having the sayHello fn for every new user, it's possible to create one instance in memory that the other reference it.
+
+var CreateUser = function(email, pw, username) {
+	this.email = email;
+	this.pw = pw;
+	this.username = username;
+	};
+
+'this' keyword ---> object
+  // you don't need to define the object (e.g., var obj = {};)
+
+	this.
+	  1. an object is created for us, called --> this
+		2. fn automatically returns 'this'
+		3. && and return for us.
+!! whenever you invoke a function with the 'new' keyword, it automatically creates
+
+// job interview, when creating with the 'new' keyword it:
+	1. creates an object
+	2. returns that object
+
+// instead of JS creating a plain object with the 'this' & 'new'
 
 
+###from inclass afternoon lecture w02d02
+---
+// pattern below is the maker pattern, function that creates an object
+var createUser = function(em, pw, uname){
+		return {
+					email: em,
+							password: pw,
+									userName: uname,
+											sayHello: function(){
+													alert('Hello');
+														}
+														 };
+};
+
+// you can create multiple users with the same createUser
+
+var newUser = createUser('asdfasdf@gmail', 'testPW', 'ttesUser');
+var newUser2 = createUser('testc@gmail', 'user1password', 'ttesUser1');
+
+var sayHello = function(){
+		alert('Hello');
+};
+
+createUser.sayHello();
+
+///
+
+CreateUser.prototype.sayHello = function() {
+		alert('Hello');
+};
+
+// create a 'Person' constructor which takes in a 'name' and 'age' 
+// and returns an object with both of those properties/value
+
+var Person = function(name, age) {
+		this.name = name;
+			this.age = age;
+};
+
+// above is the CONSTRUCTOR
+
+var me = new Person('tyler', 24);
+var cahlan = new Person('cahlan', 30);
+
+// can do me.name, and cahlan.name
+
+Person.prototype.sayHellow = function() {
+		alert('Hello');
+};
 
 
+// to invoke with 'me', put == me.sayHello();
+// cahlan ==== cahlan.sayHello();
+
+Person.prototype.sayName = function() {
+		alert('My name is ' + this.name);
+};
+
+// when sayName is invoked, it says 'who invoked me'
+//! to figure it out, left to the dot'.' and call-time
+// e.g.,, left of  cahlan.sayName();  <---to the left is 'cahlan'
 
 
+// whenever you see the 'this' keyword, look to when the function was called
+// and to the left of that keyword
 
+// maker pattern = creat an object and return that object
+//constructor these things do that
+
+//? the 'this' keyword allows your functions to be more dynamic
+
+// protypes live on functions, every function has a prototype
+
+/* end of inclassLecture */
+---
 
 
 
