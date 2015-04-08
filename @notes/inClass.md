@@ -784,5 +784,33 @@ Person.prototype.sayName = function() {
 /* end of inclassLecture */
 ---
 
+## 8 April w02d03 - inClass morning
+toy problem: 
+// write a function here...
+
+//...to make the below function invocation work
+
+sum([1,4,2,5,2,8], function(total){
+	return 'The total sum of the array is ' + total;
+	{);
+
+---
+answer :
+var sum = function(arr, cb){
+		var total = 0;
+			for(var i in arr) {
+						total += arr[i];
+							}
+								return cb(total);
+};
+
+var arr1 = [1,4,3,5,2,8];
+
+sum(arr1, function(total){
+		return 'the total sum of the array is ' + total;
+});
+---
+
+
 
 
