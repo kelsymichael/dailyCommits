@@ -812,5 +812,39 @@ sum(arr1, function(total){
 ---
 
 
+// when splicing in an array, everything shifts, making it need a 'i--' to ensure everything is covered
+
+###Closures
+
+var cExample = function() {
+	var cTest = 'Closed';
+	};
+
+	console.log(cTest);
+
+	// end <-- above example will give an error because of scope
+---
+// browser uses the 'Window' object as global scope
+
+var cTest2 = 'Open';
+
+car cExample = function(){
+	var cTest = 'Closed';
+	console.log(cTest2);
+	var dan = function(){
+		var cTest3;
+		};
+};
+
+*don't shadow variables*
+
+###polluting the global scope
+// by not declaring with var, you are putting functions on the global scope
+
+! 'for' and 'if' expressions *DO NOT* create scopes
+
+
+
+
 
 
