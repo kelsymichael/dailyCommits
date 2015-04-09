@@ -961,7 +961,7 @@ focus refers to the element that the user is clicked on
 ## start of mini-project
 
 
-
+// go back and check css
 
 
 
