@@ -948,10 +948,17 @@ two separate concerns
 
 *one of the biggest challenges* creating the correct abstractions for your applications
 
+// for smaller projects google
+	what you need and 'google cdn'
 
 
 
+application programmers interface (api)
+ those publicly available functions that you interact with
 
+focus refers to the element that the user is clicked on
+
+## start of mini-project
 
 
 
