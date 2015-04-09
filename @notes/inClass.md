@@ -843,6 +843,129 @@ car cExample = function(){
 
 ! 'for' and 'if' expressions *DO NOT* create scopes
 
+## 9 April 2015 - inclass lecture
+	// tought by dave smith
+
+why does JQuery exist?
+	browser vendors had a hard time agreeing on certain features and document name
+
+	started out as having a DOM (document object model). We should use css style - selectors to manipulate the dom
+
+jquery provides a nice abstraction
+
+walk through the DOM ~
+
+// where to put a <script></script>
+JS/html/css parse from top to bottom
+cdn (content delivery network)
+
+throught the DOM -
+	by definition, html is just a giant string
+	browser is a giant string parser
+	the representation of the html/css in memory
+
+first jquery function to know:
+	'ready' the dollar-sign $ <-- one of the few things js treats just as a variable, $ is just like letter a,b,c
+
+	all jquery things today will be $
+	the document object - has a lot of options to be able to manipulate the dom
+
+	$(document).ready(function() {
+		console.log('the document is ready now');
+	});
+
+	generally put all of your code inside a document.ready
+
+### how to select elements on page w/jquery
+  var element = $('#username');
+
+	jquery returns a jquery object
+	jquery can match multiple items
+
+	$(document).ready(function(){
+		var element = $('.welcome');
+
+### actual structure changes
+
+$('#container').prepend('<h3>this is an h3 warninng </h3>');
+
+// removing more items then intended is easy to do in jquery
+
+## click events
+$(document).ready(function() {
+	$(#submit
+
+});
+
+
+### event delegation & 'bubbling'
+
+	// can do sudo states, e.g., if($('h1').is(':visible'))
+
+### for interacting with the user
+$('body').on('click', 'button', function(event) {
+	console.log('the users password in', $('#password
+
+
+## *	ajax = how you send http requests to the server *
+
+when pulliing out a .val(); <-- it will get the first one in the DOM
+
+the val() can you in a lot of circumstances
+
+xss attack == cross-type browser attack
+
+$('body').on('click', 'button', function(even){
+$('#container').find('div').remove();
+});
+	
+	
+//body
+
+// all jQuery is, is a bunch of jquery functions, that work on jquery objects
+
+jQuery UI <-- for visual things
+
+### chaining
+
+##comparing to Angular
+	abstraction (in software), take something complicated and put a level of abstraction to be able to manage complicated problems
+
+
+	bldg a web app
+		lowest most complicated 
+
+							Angular1
+							jQuery
+							DOM
+
+
+two separate concerns
+	1. html
+	2. js/logic
+							
+
+
+*one of the biggest challenges* creating the correct abstractions for your applications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
