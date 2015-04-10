@@ -970,6 +970,66 @@ focus refers to the element that the user is clicked on
 POST - GET -
 
 
+sample code from app.js in twitter-clone: 
+$(document).ready(function(){
+
+		$('#tweet-controls').hide();
+
+			$('.tweet-compose').on('click', function(){
+						$(this).animate({height: '5em'});
+								$('#tweet-controls').show();
+									});
+
+				$('.tweet-compose').on('keyup', function(){
+							var text = $('.tweet-compose').val();
+									var charCount = 140 - text.length;
+											$('#char-count').html(charCount);
+													
+																
+																		if((charCount <= 10) && (charCount >= 0)) {
+																						$('#char-count').css('color', '#C20016'); }
+																								else {
+																												$('#char-count').css('color', '#999');
+																														}
+
+																																if(charCount < 0) {
+																																				$('#tweet-submit').prop({disabled: true});}	
+																																						else {
+																																										$('#tweet-submit').prop({disabled: false});
+																																												}
+
+																																														});
+
+							// } else if (charCount === 0) {
+											//	$('#char-count').css('color', '#999');
+														//	$('#tweet-submit').prop({disabled: true}); 
+																	// } else if (charCount >= 0) {
+																					//	$('#tweet-submit').prop({disabled: false});
+																								// }
+
+
+
+
+
+
+																										// if(charCount === 0) {
+																													//	$('#tweet-submit').prop({
+																																//		disabled: true,
+																																				
+																																					//		});
+																														//	}
+
+																															// });
+
+
+
+
+
+
+	});
+
+<!----end ----->
+
 
 
 
