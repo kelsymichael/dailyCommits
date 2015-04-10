@@ -963,7 +963,11 @@ focus refers to the element that the user is clicked on
 
 // go back and check css
 
+## 10 April 2015 - w02d05
 
+// begin $.ajax jQuery 
+
+POST - GET -
 
 
 
