@@ -1031,8 +1031,14 @@ $(document).ready(function(){
 <!----end ----->
 
 
+## 12 April 2015 - sun
+	made minor edits for w03d01 mini-project
+		'step 1'. parenths close, ..'html', skeleton, application.
 
-
+angular apps - 
+	start codeschool
+	+- finished pre-reading
+	 - look @ tutsPlus, finish project
 
 
 
