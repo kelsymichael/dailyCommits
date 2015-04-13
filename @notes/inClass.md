@@ -1041,6 +1041,29 @@ angular apps -
 	 - look @ tutsPlus, finish project
 
 
+## 13 April 2015 - mon - w03d01
+
+toy problem: write a function called Reverse that takes in a string and reverses that string without using .reverse on the Arrays prototype
+
+var reverse = function(str){
+		var stringReverse = '';
+			for(var i = str.length; i > 0; i--){
+						stringReverse += str.slice(i - 1, i);
+							}
+								return stringReverse;
+};
+
+
+// mine
+var Reverse = function(str){
+		var newString = [];
+			for(var i = 0; i < str.length; i++){
+							newString.unshift(str.charAt(i));
+								}
+									return newString.join('');
+};
+
+// start of angular
 
 
 
