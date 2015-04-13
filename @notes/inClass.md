@@ -1082,7 +1082,25 @@ var Reverse = function(str){
 
 AngularJS Fundamental in 60-ish minutes (video);
 
+// inClass from video
+	directive - extends HTML (teaches HTML new Tricks)
+	filter - filter data
+	view - HTML Document / Template
+	controller - logic layer (controls the view)
+	$scope - Object
 
+
+whenever you creat a new controller, you get a $scope object
+
+var app = aangular.module('nameOfModule', []);
+
+app.js
+
+### start of mini project - babies first angular
+
+## start of project - angular-friends - w03d01
+
+// need to figure out steps 5/6 of project
 
 
 
