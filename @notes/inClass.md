@@ -1065,6 +1065,29 @@ var Reverse = function(str){
 
 // start of angular
 
+## why do we have Angular - 
+	1. separate logic
+	2. templating (e.g., dashboard-view, and then swap out users
+
+	// example of a template
+
+	e.g.,
+	<!---setting--->
+<div>
+	<span> username: {{user.name}} </span>
+	<span> email: {{user.email}} </span>
+</div>
+
+(5 parts to angular)
+
+AngularJS Fundamental in 60-ish minutes (video);
+
+
+
+
+
+
+
 
 
 
