@@ -1103,6 +1103,19 @@ app.js
 // need to figure out steps 5/6 of project
 
 
+# 14 april 2015 - w03d02
+toy problem: write a function that returns the factorial of a number // the number 5 will return 5*4*3*2*1 ===> 120
+
+var numberChange = function(number){
+		var thing = 1;
+			for(var i = number; i > 0; i--){
+						thing = thing*i;
+							}
+								return thing;
+};
+
+## start of yesterday's review of project;
+
 
 
 
