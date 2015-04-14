@@ -1116,6 +1116,40 @@ var numberChange = function(number){
 
 ## start of yesterday's review of project;
 
+// building a large project with loads of controllers, would be messy
+
+// the controller --> controls the view
+// doing things with the server requests = service
+
+deals with view = controller || server request = service
+
+this controller uses only these services
+// you don't want to load all the services in all of the controllers
+
+anything you want to inject you insert as a parameter
+a service won't re-run the code once it is made
+	// a service is created once, used many times
+
+design pattern:
+	//(state = state of being, e.g., you're logged in, that's a state)
+
+	data should be in services (states);
+
+want to put logic in something. (method = function lives in an object)
+
+if you're in the view, the only thing you can point to is the $scope
+
+
+## variables in the .service
+
+a maker function would be the way that 
+
+
+
+##start of w03d02 mini-project
+
+
+
 
 
 
