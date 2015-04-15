@@ -1148,6 +1148,29 @@ a maker function would be the way that
 
 ##start of w03d02 mini-project
 
+## 15 april 2015 - w03d03
+
+toy problem: write a function called simpleSymbols that takes in a string parameter and determines if it is an acceptable sequence by either returning the string true of false. the str param will be composed of a + and = symbols with several letters between them (ie ++d+===+c++==a) and for the string to be true each letter must be surround by a + symbols. so the string to the left would be false, the string will not be empty and will have at least one letter
+
+// a true statement would be +d+===++a++=+b+=
+
+// one answer not using regex
+var simpleSymbols = function(str){
+		for(var i = 0; i < string.length; i++){
+					if(string.charAt(i) !== "=" && string.charAt(i) !== '+'){
+							return str.charAt(i-1) === '+' && str.charAt(i+1) === '+';
+									}
+										}
+};
+
+
+
+
+
+
+
+
+
 
 
 
