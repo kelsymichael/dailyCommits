@@ -1164,6 +1164,60 @@ var simpleSymbols = function(str){
 };
 
 
+// start of a review
+~ use var if you want it to be private, helps prevent pollution
+
+## start of w03d03 
+
+HTTP / JSON / PROMISES
+
+
+### starting off with htttp
+	--> datacenter delivering content to your computer
+
+example of callback
+
+function getPuppy(cb){
+	//remember, this is an async function
+}
+
+getPuppy(function(puppy){
+	render(puppy)  	
+})
+
+
+// promise version
+function getPuppy(){
+  // build and return a promise object
+}
+
+var puppyPromise = getPuppy()
+
+puppyPromise.then(//what to do if work, //what do if didn't work)
+puppyPromise.then(function(puppy){
+	render(puppy)
+}, function(err){
+	console.log('ohnothisisbad');
+})
+
+
+
+{
+	then: function(){...}
+	catch: function(){...}
+}
+
+
+ --> standardization ( js   A+ promises spec )
+
+### promises can be chained, instead of a nested crazy callback
+
+
+
+
+
+
+
 
 
 
