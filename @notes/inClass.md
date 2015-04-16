@@ -1213,6 +1213,31 @@ puppyPromise.then(function(puppy){
 ### promises can be chained, instead of a nested crazy callback
 
 
+# 16 april 2015 -- w03d04
+
+toy problem / given an arbitrary input string, return the first non-repeated character in the string. the example: firstNonRepeatedCharacter('ABA'); // => 'B';
+firstNonRepeatedCharacter('AABCABD'); // => 'C'
+
+
+// dylan's answer
+var nonRepeater = function(str){
+		var index=[];
+			var count;
+				str.split('').forEach(function(letter, i) {
+							count=0;
+									str.split('').forEach(function(latter){
+													if(leter === latter) {
+																		count += 1;
+																					}
+																							});
+											index.push(count);
+												});
+					return str[index.indexOf(1)];
+};
+
+
+
+// <-- get other solutions for G+ -->
 
 
 
