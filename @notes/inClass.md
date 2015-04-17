@@ -1240,7 +1240,9 @@ var nonRepeater = function(str){
 // <-- get other solutions for G+ -->
 
 
+## 17 april 2015 w03d05
 
+review of w03d04 itunes api project
 
 
 
