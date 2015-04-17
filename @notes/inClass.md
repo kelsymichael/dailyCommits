@@ -1244,6 +1244,51 @@ var nonRepeater = function(str){
 
 review of w03d04 itunes api project
 
+$q creates deffered, deffered generates your promises
+
+// everything that has been registered with the .then, will fire after
+// the promise is RESOLVED
+
+// some inclass code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>$q demo</title>
+		</head>
+		<body ng-app='qDemo'>
+			<div ng-controller='qDemoCtrl'>
+					<input type="number" ng-model='testNumber'>
+							<button ng-click='asyncAction(testNumber)'>Async</button>
+									<h1>{{ newNumber }}</h1>
+										</div>
+											
+												<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js'></script>
+													<script type="text/javascript">
+														var app = angular.module('qDemo', []);
+
+															app.controller('qDemoCtrl', function($scope, $q, $timeout){
+																		var asyncAction = function(number) {
+																						var deferred = $q.defer();
+																									$timeout(function() {
+																														deferred.resolve(number);
+																																	});
+																											 return deferred.promise;
+																												})
+
+																$scope.fireAsync = function(number){
+																			var promise = asyncAction(number);
+																				});
+
+
+
+
+
+		</script>
+
+		</body>
+		</html>
+###end of inclass
 
 
 
