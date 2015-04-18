@@ -1290,7 +1290,11 @@ $q creates deffered, deffered generates your promises
 		</html>
 ###end of inclass
 
-
+#18 April 2015 - saturday
+todo: 
+ - review angular w03
+ - wireframe logYourlog
+ 
 
 
 
