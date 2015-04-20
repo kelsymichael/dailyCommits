@@ -1294,7 +1294,10 @@ $q creates deffered, deffered generates your promises
 todo: 
  - review angular w03
  - wireframe logYourlog
- 
+
+#19 April 2015 - sunday
+ - update the angular shared module on github
+	 - make PSD and Sketch files for templates
 
 
 
