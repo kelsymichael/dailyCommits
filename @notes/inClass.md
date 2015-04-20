@@ -1302,7 +1302,37 @@ todo:
 #20 April 2015 - mon - w04d01
 - angular js routes
 
+toy problem w04d01 - 
+  write a function called ABCheck that takes a string parameter and returns the string  true if the characters a and b are separated by exactly 3 places anywhere in the string at least once (e.g., 'lane borrowed' would result in true because there is exactly three character between a and b), otherwise return false.
+toy prob answer:
+	
+	var ABCheck = function(str){
+		var arr = str.split('');
+		for(var i = 0; i < arr.length; arr++){
+			if(arr[i] === 'a'){
+				if(arr[i-4] === 'b' || arr[i+4] === 'b'){
+					return true;
+					}
+			}
+		}
+		return false;
+	}
 
+// end ---> of first example
+
+// second example:
+  var ABCheck = function(str){
+		var newStr = str.toLowerCase();
+		var arr = str.split('');
+		for (var i = 0; i < arr.length; i++){
+			if (arr[i] === 'a' || arr[i] === 'A' && arr[i+4] === 'b'){
+				return true;
+			}
+		}
+	return false;
+}
+
+// benefit of the array vs. string, generally if you want to alter the string, you want to split() it and put it into an array
 
 
 
