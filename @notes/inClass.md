@@ -1334,9 +1334,26 @@ toy prob answer:
 
 // benefit of the array vs. string, generally if you want to alter the string, you want to split() it and put it into an array
 
+// beginning of routing lecture
+- begin review of angular (from w03)
+angular === a framework
+	a framework === a skeleton you build your app around, and it also abstracts
+	angular takes care of a lot of things, including data binding, $http, etc.
+	ANGULAR:
+		controller - the glue between the service and the view
+			- $scope - anything you want in the view, you need in the $scope
+		service - where data is getting manipulated and stored, anything that doesn't deal directly with the view (e.g., ajax requests, other data, etc.)
+			promise - it uses a callback functions. promises solves the problem that lets asynchronous programming happen.
+				promise is just an object
+				handles async programming
 
+#routing
+	routing - ~handling the path, and providing the user with the proper html template and information
+		specific to angular
+			- angular has it's own routing service
 
-
+TODO:
+	-watch routing tuts ~
 
 
 
