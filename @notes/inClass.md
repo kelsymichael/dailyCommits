@@ -1299,7 +1299,8 @@ todo:
  - update the angular shared module on github
 	 - make PSD and Sketch files for templates
 
-
+#20 April 2015 - mon - w04d01
+- angular js routes
 
 
 
