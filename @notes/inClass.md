@@ -1443,7 +1443,8 @@ app.config(function($routeProvider, $httpProvider){
 	})
 	<!---rest is in subl file --->
 
-
+## start of directives lecture - w04d02
+	
 
 
 
