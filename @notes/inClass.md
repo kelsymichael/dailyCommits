@@ -1357,6 +1357,27 @@ TODO:
 
 # 21 April 2015 - w04d02
 
+toy problem:
+	write a func() that generates an arr of integers of the Fibonacci sequence up to i = 100. Fib seq defined by Fn = Fn-1 + Fn-2
+	then write a func() to check if given num is in the Fib seq, return 'yes' or 'no'
+
+// answer 1:
+  var fibCheck = function(fn1, fn2){
+		var sequence = [fn1, fn2];
+		for(var i =1; i < 100; i++){
+			var newNum = sequence[i] + sequence[i-1];
+			sequence.push(newNum);
+		}
+		if(sequence.indexOf(num) !== -1){
+			return 'yes'
+		} else {
+			return 'no'
+		}
+
+		console.log(sequence);
+	}
+
+<---end of answer one --->
 
 
 
