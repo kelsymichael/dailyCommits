@@ -1378,6 +1378,74 @@ toy problem:
 	}
 
 <---end of answer one --->
+###review w04d01 - nbaRoutes
+ step 2: going into teamService.js
+	
+	var app = angular.module('nbaRoutes');
+
+	app.service('teamService', function($http, $q){
+		this.addNewGame = function(gameObj){
+			var url = 'https://api.parse.com/1/classes/' + gameObj.homeTeam;
+		if(parseInt(gameObj.homeTeamScore) > parseInt(gameObj.oppentScore)){
+			gameObj.won = true;
+		} else {
+			gameObj.won = false;
+		}
+		return $http({
+			method: 'POST',
+			url: url,
+			data: gameObj
+		});
+		};
+		//will get team data
+		this.getTeamData = function(team) {
+			var dfd = $q.defer();
+			var url = 'https://api.parse/1/classes/' + team;
+			$http({
+				method: 'GET',
+				url: url
+			}).then(function(data){
+				console.log(data);
+				var results = data.data.results;
+				var wins = 0;
+				var losses = 0;
+				for(var i = 0; i < results.length; i++){
+					if(results[i].won){
+						wins++;
+					}else if (!results[i].won){
+						losses++;
+					}
+				}
+				results.wins = wins;
+				results.losses = losses;
+			})
+			  return dfd.promise
+});
+
+###step 3: in 
+app.js
+
+app.config(function($routeProvider, $httpProvider){
+	$httpProvider.interceptor.push('httpRequestInterceptor');
+
+	$routeProvider
+	.when('/', {
+		templateUrl: 'js/home/homeTmpl.html',
+		controller: 'homeCtrl'
+})
+	.when('/teams/:team', {
+		templateUrl: 'js/teams/teamTmpl.html',
+		controller: 'teamCtrl'
+		resolve: {
+			teamData: function(teamService) {
+				return teamService.getTeamData();
+		}
+	})
+	<!---rest is in subl file --->
+
+
+
+
 
 
 
