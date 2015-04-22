@@ -1446,10 +1446,32 @@ app.config(function($routeProvider, $httpProvider){
 ## start of directives lecture - w04d02
 	
 
+## 22 april 2015 - w04d03
 
+toy problem:
+	find the only item that occurs an even number of times in an array. if there is more than one item that occurs an even number of times, just return one of them.
+		// e.g., var onlyEven = evenOccurence([1,6,2,4,4,5,6,8,9,6]);
+					console.log(onlyEven); // 4
 
+<!-- start of first answer -->
+var evenOccurence = function(arr){
+	var times = {};
+	var x = 0;
+	while( x < arr.length) {
+		if(!times[arr[x]]){
+			times[arr[x]] = 1;
+		} else {
+			times[arr[x]]++
+		} x++
+	} for(var i in times) {
+		if (times[i]%2 ===  0) {
+			return i;
+		}
+	}
+}
+<!---end of first solution -->
 
-
+## start of Dave Smith Lecture
 
 
 
