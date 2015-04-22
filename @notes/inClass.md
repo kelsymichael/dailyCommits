@@ -1472,7 +1472,9 @@ var evenOccurence = function(arr){
 <!---end of first solution -->
 
 ## start of Dave Smith Lecture
+	--> notes in rhodia
 
+### start of review w04d02 - in subl
 
 
 
