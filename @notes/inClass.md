@@ -1503,5 +1503,11 @@ a good use case, would be using a nested loops?
 <!--end of answer one -->
 
 
+### start of lecture w/Chris for fireBase
 
+// people have been moving away from relation databases because of scaling issues (tons of data, having to join together, taking a bunch of nodes, which is being pulled from each table)
+	e.g., facebook is going to want some data in relation database, but other things in noSQL solutions. 
+		you do lose some analyzing, because you have to loop through all of the objects
+
+		
 
