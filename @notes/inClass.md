@@ -1476,6 +1476,31 @@ var evenOccurence = function(arr){
 
 ### start of review w04d02 - in subl
 
+# 23 April 2015 - w04d04
+toy problem:
+  write a function that accepts a number, n, and returns the nth Fibonacci number. use a recursive solution to this problem; if you finish with time left over, implement an iterative solution.
+
+	// below example is if it starts @ 1;
+	*nthFibonacci(2); // => 2
+	*nthFibonacci(3); // => 3
+	*nthFibonacci(4); // => 5
+0,1,1,2,3,5,8,13,21,34...
+
+
+// recursive function is a function to call itself, but you have to have it tell itself, up to a point (or it will run forever);
+
+a good use case, would be using a nested loops?
+
+<!--start of answer one -->
+  var findFib = function(n){
+		if(n === 0 || n ===1){
+			return 1;
+		} else {
+		 return	findFib(n-1) + findFib(n-1);
+		}
+	};
+
+<!--end of answer one -->
 
 
 
