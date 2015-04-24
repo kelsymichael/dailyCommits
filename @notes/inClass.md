@@ -1510,4 +1510,10 @@ a good use case, would be using a nested loops?
 		you do lose some analyzing, because you have to loop through all of the objects
 
 		
+##24 april 2015 - w04d05
+
+// start of lecture by @chrisesplin, chris@quiver.is
+
+
+
 
