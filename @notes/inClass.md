@@ -1520,5 +1520,7 @@ a good use case, would be using a nested loops?
 		// currently looking at weather api and flickr, or do a google maps integration into a notes app
 			-- instead of a context based on assigned things, it's geo-location grouped by areas
 			
-
-
+## current todo
+			-have a landing page
+			-html/css framework
+			-user login
