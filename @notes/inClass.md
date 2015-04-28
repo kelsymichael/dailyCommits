@@ -1514,13 +1514,13 @@ a good use case, would be using a nested loops?
 
 // start of lecture by @chrisesplin, chris@quiver.is
 
-### todo for app
-	- mindmap functionality
-	- create basic framework in angularMaterialDesign
-		// currently looking at weather api and flickr, or do a google maps integration into a notes app
-			-- instead of a context based on assigned things, it's geo-location grouped by areas
-			
-## current todo
-			-have a landing page
-			-html/css framework
-			-user login
+# 28 April 2015 - w05d02
+
+	Giphy Project toDo
+		- api interactions
+			- get giph from user input
+			- display giph
+			- ability to save giph
+				-saved giphs will only display still image
+			- show giphy links underneath image to embed easily
+
