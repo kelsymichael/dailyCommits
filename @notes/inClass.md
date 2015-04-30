@@ -1524,3 +1524,6 @@ a good use case, would be using a nested loops?
 				-saved giphs will only display still image
 			- show giphy links underneath image to embed easily
 
+
+
+
