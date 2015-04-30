@@ -1525,5 +1525,7 @@ a good use case, would be using a nested loops?
 			- show giphy links underneath image to embed easily
 
 
+# 30 april 2015 w05d04
+
 
 
