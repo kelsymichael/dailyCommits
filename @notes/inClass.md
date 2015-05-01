@@ -1515,9 +1515,7 @@ a good use case, would be using a nested loops?
 // start of lecture by @chrisesplin, chris@quiver.is
 
 # 28 April 2015 - w05d02
-
-	Giphy Project toDo
-		- api interactions
+Giphy Project toDo - api interactions
 			- get giph from user input
 			- display giph
 			- ability to save giph
@@ -1526,6 +1524,39 @@ a good use case, would be using a nested loops?
 
 
 # 30 april 2015 w05d04
+// start of node topic //
+
+##1 may 2015
+
+in-class notes
+
+//
+var http = require('http');
+var server;
+
+server = http.createServer();
+
+//routing
+server.on('request', function(req, res) {
+	if('GET' === req.method){
+		res.end('You got me!');
+		return;
+
+	}
+	if (
+	res.end();
+});
+
+server.on('listening', function(){
+	console.log('ready to accept requests');
+});
+server.listen();
+
+
+
+
+
+
 
 
 
