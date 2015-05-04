@@ -1556,6 +1556,11 @@ server.listen();
 	-go over express()
 	-start wireframes
 	
+# 4 may 2015 -- w06d01
+	toy problem w06d01 - http://jsfiddle.net/cahlan/jfba13a6/
+
+answer jsfiddle.net/cahlan/2ub9u8fj
+
 
 
 
