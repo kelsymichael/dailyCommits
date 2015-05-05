@@ -1561,10 +1561,35 @@ server.listen();
 
 answer jsfiddle.net/cahlan/2ub9u8fj
 
+## 5 may 2015 -- w06d02
 
+// toy problem w06d02 -- write a function that can only be invoked once //
 
+//--example one--// -- not correct
 
+var timesInvoked = 0;
 
+var oneTime = function(){
+	if(timesInvoke > 0){
+		return 'cannot be invoked more than once'
+	}
+	else {
+		timesInvoked++;
+		return ' here is my function doing stuff';
+	}
+}
 
+//--example two--//
+
+var singleton = (function(){
+	function createdFunction(){
+		var myFunction = function(){
+			console.log('created only once')
+		}
+	return createdFunction;
+	}
+	return {getFunction:function(){ 
+		if (createFunction)};
+})
 
 
