@@ -1592,4 +1592,20 @@ var singleton = (function(){
 		if (createFunction)};
 })
 
+## 6 may 2015
+	
+	toy problem w06d03
+	make the following code work:
+	var counter = getCounter();
+	counter(); //2
+	counter(); //4
+	counter(); //6
+
+var getCounter = function() {
+	var num =0;
+	return function(){
+		num += 2;
+
+
+
 
