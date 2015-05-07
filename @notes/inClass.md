@@ -1606,6 +1606,18 @@ var getCounter = function() {
 	return function(){
 		num += 2;
 
+## 7 may 2015
 
+	toy prob: w06d04 - 
+	recreate the Array prototype push method. if you get done, also do pop. hint: use the *this* keyword
+
+answer/
+	Array.prototype.push = function(item){
+		this[this.length] = item;
+		this.length++;
+		return this.length;
+	};
+
+	nameOfArray.push('item')
 
 
