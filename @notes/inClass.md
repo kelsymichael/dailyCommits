@@ -1620,4 +1620,12 @@ answer/
 
 	nameOfArray.push('item')
 
+## 8 may 2015
+	todo:
+		-review mongodb && mongoose
+---
+
+
+
+
 
