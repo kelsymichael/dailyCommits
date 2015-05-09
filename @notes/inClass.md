@@ -1625,6 +1625,20 @@ answer/
 		-review mongodb && mongoose
 ---
 
+## 9 may 2015
+	saturday
+		-wireframe
+		-setup environment variables
+		-google oauth2
+			-doublecheck fitbi
+
+
+
+
+
+
+
+
 
 
 
