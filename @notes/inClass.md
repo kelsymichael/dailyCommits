@@ -1632,7 +1632,10 @@ answer/
 		-google oauth2
 			-doublecheck fitbi
 
-
+## 10 may 2015 
+	-went over pluralsight - mean stack
+	-wireframe everyones' apps
+	-pair program
 
 
 
