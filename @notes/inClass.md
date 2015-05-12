@@ -1637,7 +1637,10 @@ answer/
 	-wireframe everyones' apps
 	-pair program
 
-
+## 11 may 2015
+	---
+	too sick to go in, suspect flue from part-timer
+	---
 
 
 
