@@ -1642,7 +1642,10 @@ answer/
 	too sick to go in, suspect flue from part-timer
 	---
 
-
+## 13 may 2015
+ ---
+ still sick, day has been blur of day/nyquil
+ ---
 
 
 
