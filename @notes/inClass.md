@@ -1647,7 +1647,13 @@ answer/
  still sick, day has been blur of day/nyquil
  ---
 
+## 14 may 2015
+	---
+	double-check apis on mashape - 
+		refactore giphygift
+	---
 
+	
 
 
 
