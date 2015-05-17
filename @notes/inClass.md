@@ -1660,3 +1660,8 @@ asdfasdf
 
 ##15 may 2015 -- inpoint
 
+##18 may 2015 -- 
+	-utemp expansion / exposition
+
+
+
