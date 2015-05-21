@@ -1663,5 +1663,6 @@ asdfasdf
 ##18 may 2015 -- 
 	-utemp expansion / exposition
 
-
+##21 May 2015 - w08d04
+	-refactor code - 
 
