@@ -1666,3 +1666,71 @@ asdfasdf
 ##21 May 2015 - w08d04
 	-refactor code - 
 
+## Sass & Compass Notes - (https://www.youtube.com/channel/UCPgvHY8Q2ZaYxYCeJvYd45w) <-- youtube playlist
+// use .scss, not .sass
+
+###Variables - 
+	$main_color: #023e54;
+	.nabar {
+		background: $main_color;
+	}
+
+###Nesting - group rules that are related to each other (similar to @media queries)
+	e.g.,
+	.pixgrid {
+		ul {
+			margin: 0;
+			etc:
+			li {
+				float: left;
+				etc:
+			}
+			img {
+				max-width: 96px;
+				cursor: pointer;
+			}
+		}
+	}
+
+###Operators
+	$border_thickness : 1px;
+	$thicker : $border_thickness*5;
+
+	.sidebar {
+		@if ($border_thickness<=1) {
+			background-color: red;
+		} @else {
+			background-color: yellow;
+		}
+	}
+
+	.sidebar {
+		background-color: red;
+	}
+
+###Mixins (aka: functions)
+	@mixin rounded( $radius: 10px) {
+		-webkit-border-radius: $radius;
+		border-radius: $radius;
+		background-clip: padding-box;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+			li img {
+		  display: block;
+			@include rounded(20px);
+			}
+	}
+
+###compass = a framework with pre-built mixins / solve common problems
+
+
+
+
+
+
+
