@@ -1770,6 +1770,11 @@ Features
 
 
 
+###notes about uiTreeExample
+in basic-example.html
+	add input ng-model='searchText' line 77
+	add filter:searchText - line 87
+ *basic search working*
 
 
 
