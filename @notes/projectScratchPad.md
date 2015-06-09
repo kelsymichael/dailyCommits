@@ -59,5 +59,6 @@ Continue with stylus projects// really liking the syntax
 
 		for some reason i've been looking at my monitor and not making the simple adjustment for all img's to be within their own space, justify-content space-between
 
+##setup with flex box, %, and fixed with media queries 
 
 
