@@ -1776,6 +1776,11 @@ in basic-example.html
 	add filter:searchText - line 87
  *basic search working*
 
+!! note to self - the colors generated in sketch versus the color picker within sublime are *NOT* the same. hex from Sketch looked nicer (slightly flatter)
 
+	in angular - commenting out after {{somethingInBraces}} won't effect it, need to delete/remove the code
+
+!! note to self 
+	- adding a background-image: url(/folder/etc/img.png) <-- add the root '/'
 
 
