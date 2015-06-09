@@ -1736,3 +1736,41 @@ asdfasdf
 
 
 ---> process notes / separate into categories / make angular sortable app
+
+
+
+
+## notes for group project 
+
+Features
+	-make folder public
+		-subscribe/follow to folder
+				-save to your bookmarks
+					-public / private(following) folders
+
+					// chrome bookmarks --> save to your site
+						-doesn’t effect
+
+						-admin (person who created bookmark)
+
+						sharing:
+							userID
+									-publicID
+											is admin?
+														yes==edit
+																	no==error
+
+																	// Would you like to make edits/changes?
+																			-->copy to your bookmarks
+																					—> know that it 
+
+																					make folder public --> changes ‘status’ on folder
+																						--loops through anything ‘public status’ - puts in feed
+																								--follows == adds username to folder in mongo
+
+
+
+
+
+
+
