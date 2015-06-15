@@ -1,0 +1,21 @@
+{
+"color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Javascript",
+		"CSS",
+		"CSS Color Converter"
+	],
+		"ignored_words":
+	[
+	"––––––––––––––––––––––––––––––––––––––––––––––––––",
+	"Firebase"
+	],
+	"tab_size": 2,
+	"theme": "itg.flat.dark.blue.sublime-theme",
+	"itg_small_tabs": true,
+	"update_check": false
+}																								}
+																								
