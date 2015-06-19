@@ -1729,3 +1729,6 @@ followup with employer listing, forward to krissy
 
 -+-+-
 // get sketch mockups done
+
+--finish mockups asap, finalize style-tile, email all
+--finish fixing footer & toaster styling
