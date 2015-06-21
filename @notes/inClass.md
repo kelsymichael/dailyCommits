@@ -1734,3 +1734,5 @@ followup with employer listing, forward to krissy
 --finish fixing footer & toaster styling
 
 // won bb-gun tourney //
+
+-/ lost the foosball tourney
