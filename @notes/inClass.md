@@ -1724,7 +1724,6 @@ in basic-example.html
 
 !! note to self 
 	- adding a background-image: url(/folder/etc/img.png) <-- add the root '/'
-//\\
 followup with employer listing, forward to krissy
 
 -+-+-
@@ -1736,3 +1735,5 @@ followup with employer listing, forward to krissy
 // won bb-gun tourney //
 
 -/ lost the foosball tourney
+
++focus on resume - three projects
