@@ -2,6 +2,7 @@
 place for notes and settings for various programs
 
 ### Sublime Text
+---
 
 #### copy & paste to open sublime from terminal
 ```bash
