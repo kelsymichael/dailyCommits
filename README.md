@@ -1,11 +1,14 @@
 # settings
 place for notes and settings for various programs
 
-### open sublime 3 from terminal
+### Sublime Text
+
+#### copy & paste to open sublime from terminal
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
+#### settings > user
 ```json
 {
 	"color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
