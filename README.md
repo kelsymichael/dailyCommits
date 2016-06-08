@@ -6,6 +6,30 @@ place for notes and settings for various programs
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
+```json
+{
+	"color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"CSS",
+		"CSS Color Converter",
+		"Javascript"
+	],
+	"ignored_words":
+	[
+		"––––––––––––––––––––––––––––––––––––––––––––––––––",
+		"Firebase"
+	],
+	"itg_small_tabs": true,
+	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": true
+}
+```
+
 ### .bash_profile
 ```bash
 print_before_the_prompt () {
@@ -95,6 +119,7 @@ bakwht='\e[47m'   # White
  
 txtrst='\e[0m'    # Text Reset
 
+## show and hide system files ##
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
