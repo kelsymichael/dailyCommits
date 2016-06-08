@@ -1,7 +1,7 @@
 # settings
 place for notes and settings for various programs
 
-### Sublime Text
+## Sublime Text
 ---
 
 #### copy & paste to open sublime from terminal
@@ -34,6 +34,8 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 }
 ```
 
+## Terminal 
+---
 ### .bash_profile
 ```bash
 print_before_the_prompt () {
@@ -127,5 +129,68 @@ txtrst='\e[0m'    # Text Reset
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+```
+
+### .vimrc
+```vim
+syntax on
+set background=dark
+filetype off                 
+
+colorscheme smyck
+
+set hlsearch
+set incsearch
+set showmatch
+
+filetype plugin indent on
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
+highlight ColorColumn ctermbg=magenta
+   call matchadd('ColorColumn', '\%81v', 100)
+
+set hidden
+set history=700
+set ignorecase
+set smartcase
+set smarttab
+set smartindent
+set cursorline
+set wildmenu
+set nocompatible
+set ai
+set si
+
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set number
+set title
+set matchpairs+=<:>
+
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
+
+autocmd vimenter * NERDTree
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'mattn/emmet-vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/syntastic'
+Plugin 'pangloss/vim-javascript'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'kien/ctrlp.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+call vundle#end()
 
 ```
