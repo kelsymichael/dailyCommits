@@ -1,9 +1,12 @@
-# settings
-place for notes and settings for various programs
+# Table of contents
+1. [SublimeText](#sublimeText)
+2. [Terminal](#terminal)
+    1. [.bash_profile](#bashProfile)
+    2. [.vimrc](#vimrc)
 
-## Sublime Text
 ---
 
+## Sublime Text <a name='sublimeText'></a>
 #### copy & paste to open sublime from terminal
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
@@ -34,9 +37,9 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 }
 ```
 
-## Terminal 
+## Terminal <a name='terminal'></a>
 ---
-### .bash_profile
+### .bash_profile <a name='bashProfile'></a>
 ```bash
 print_before_the_prompt () {
 	printf "\n $txtpur%s $txtrst" "$PWD" 
@@ -132,7 +135,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 ```
 
-### .vimrc
+### .vimrc <a name='vimrc'></a>
 ```vim
 syntax on
 set background=dark
