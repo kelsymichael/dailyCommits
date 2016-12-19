@@ -7,6 +7,11 @@
 ---
 
 ## Sublime Text <a name='sublimeText'></a>
+![sublimetext preview](/photos/sublimetext.png)
+
+
+
+
 #### copy & paste to open sublime from terminal
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
