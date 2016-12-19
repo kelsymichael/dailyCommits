@@ -39,8 +39,12 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 ## Terminal <a name='terminal'></a>
 ---
-![terminal preview](/photos/terminal.png)
 ### .bash_profile <a name='bashProfile'></a>
+![terminal preview](/photos/terminal.png)
+
+
+
+
 ```bash
 print_before_the_prompt () {
 	printf "\n $txtpur%s $txtrst" "$PWD" 
