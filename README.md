@@ -12,6 +12,8 @@
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
+![terminal preview](/photos/vim.png)
+
 #### settings > user
 ```json
 {
