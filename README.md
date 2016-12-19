@@ -138,6 +138,10 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 ### .vimrc <a name='vimrc'></a>
 ![vim preview](/photos/vim.png)
+
+
+
+
 ```vim
 syntax on
 set background=dark
