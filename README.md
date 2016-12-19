@@ -12,8 +12,6 @@
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
-![terminal preview](/photos/vim.png)
-
 #### settings > user
 ```json
 {
@@ -41,6 +39,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 ## Terminal <a name='terminal'></a>
 ---
+![terminal preview](/photos/terminal.png)
 ### .bash_profile <a name='bashProfile'></a>
 ```bash
 print_before_the_prompt () {
@@ -138,6 +137,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 ```
 
 ### .vimrc <a name='vimrc'></a>
+![vim preview](/photos/vim.png)
 ```vim
 syntax on
 set background=dark
