@@ -12,7 +12,7 @@
 
 
 
-#### copy & paste to open sublime from terminal
+#### open sublime from terminal 
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
