@@ -212,3 +212,18 @@ Plugin 'plasticboy/vim-markdown'
 call vundle#end()
 
 ```
+
+## programs to download ##
+[marked 2](http://marked2app.com)
+[PIA - vpn](https://www.privateinternetaccess.com)
+[lingo](https://www.lingoapp.com)
+[CCC](https://bombich.com)
+[CheatSheet](https://www.mediaatelier.com/CheatSheet/)
+[Craft Manager](https://labs.invisionapp.com/craft)
+[Daisy Disk](https://daisydiskapp.com)
+[Dash](https://kapeli.com/dash)
+[FileBot](http://www.filebot.net)
+[Folio](http://folioformac.com)
+[Framer](https://framerjs.com)
+[Grammarly](https://www.grammarly.com)
+
