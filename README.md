@@ -226,4 +226,4 @@ call vundle#end()
 * [Folio](http://folioformac.com)
 * [Framer](https://framerjs.com)
 * [Grammarly](https://www.grammarly.com)
-
+* [LingoApp](https://www.lingoapp.com)
