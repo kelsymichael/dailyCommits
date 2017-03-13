@@ -3,6 +3,8 @@
 2. [Terminal](#terminal)
     1. [.bash_profile](#bashProfile)
     2. [.vimrc](#vimrc)
+3. [Sketch](#sketch)
+    1. [sketch plugins]
 
 ---
 
@@ -212,6 +214,11 @@ Plugin 'plasticboy/vim-markdown'
 call vundle#end()
 
 ```
+
+## Sketch <a name='sketch'></a>
+### General Settings
+
+
 
 ## programs to download ##
 * [marked 2](http://marked2app.com)
