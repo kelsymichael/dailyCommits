@@ -217,6 +217,39 @@ call vundle#end()
 
 ## Sketch <a name='sketch'></a>
 ### General Settings
+### Plugins
+* AEFlowchart
+* Clipboard Fill
+* Color Contrast Analyzer
+* Compo
+* Distributor
+* Dynamic Button 3.5
+* Egmont plugin
+* Flatten
+* Framer Inventory
+* Icon Font
+* Magic Mirror 3
+* Magic Presenter
+* Navigate
+* Quick Color
+* Rename It
+* Segmented Circles
+* Set Symbol to Original Size
+* Show States
+* Sketch Focus
+* Sketch Image Compressor
+* Sketch Mate
+* Sketch Measure
+* Sketch Palettes
+* Sketch Plugin Monster
+* Sort Me
+* Swatches
+* Craft
+* ViewController
+* Runner
+* Export Design Doc
+* Fluid
+* Auto-Layout by Anima
 
 
 
